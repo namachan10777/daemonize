@@ -24,8 +24,8 @@ import std.process;
 import std.stdio;
 import std.string;
 
-import std.c.linux.linux;
-import std.c.stdlib;
+import core.sys.posix.unistd;
+import core.sys.posix.stdlib;
 import core.sys.linux.errno;
     
 import daemonize.daemon;
